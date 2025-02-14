@@ -36,9 +36,9 @@
 
 
 ## Team :
-###  -Amal Sharaf Mohammed UI/UX.
-###  -Abdelrahman Mohamed Salah UI/UX.
-###  -Yousef Ashraf Salah eldin Ibrahim Backend.
-###  -Mansour Ashraf Mansour AbdelMalek Frontend.
-###  -Ahmed Mohamed tawfik Frontend.
-###  -Hamdi Elsherpeni Flutter.
+###  -Amal Sharaf Mohammed (UI/UX).
+###  -Abdelrahman Mohamed Salah (UI/UX).
+###  -Yousef Ashraf Salah eldin Ibrahim (Backend).
+###  -Mansour Ashraf Mansour AbdelMalek (Frontend).
+###  -Ahmed Mohamed tawfik (Frontend).
+###  -Hamdi Elsherpeni (Flutter).
