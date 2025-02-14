@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-commerce</title>
+    <!-- Render all Element normal normalize file css  -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- Css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="main.js"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--start navigation  -->
+    <header>
+      <div class="container">
+        <img src="./images/logo.png" alt="" />
+        <nav>
+          <ul>
+            <li><a href="" cclass="active">Home</a></li>
+            <select name="category" id="category" onchange="navigateToPage()">
+              <optgroup>
+                <option value="1">Catogary</option>
+                <option value="2" ><a href="./e-commerce/Makeup.html">Makeup</a></option>
+                <option value="3"><a href="e-commerce/Furniture.html">Furniture</a></option>
+                <option value="4"><a href="e-commerce/Bags.html">Bags</a></option>
+                <option value="5"><a href="e-commerce/Offers.html">Offers</a></option>
+              </optgroup>
+            </select>
+            <li><a href="">About</a></li>
+            <li><a href="e-commerce/Contact us.html">Contact Us</a></li>
+          </ul>
+        </nav>
+        <h4>Arabic</h4>
+        <div class="links">
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-regular fa-user"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-regular fa-bell"></i>
+        </div>
+      </div>
+    </header>
+    <!--end navigation  -->
+    <!-- start search section   -->
+    <div class="search">
+      <div class="container">
+        <select name="catogary" id="catg ">
+          <optgroup>
+            <option value="1">Egypt</option>
+            <option value="2">masr</option>
+            <option value="3">itaily</option>
+          </optgroup>
+        </select>
+        <form action="">
+          <input type="search" id="search" placeholder="Search what you need" />
+          <input type="submit" id="Search" value="Search" />
+        </form>
+      </div>
+    </div>
+    <!-- end search section   -->
+    <!-- start landing  -->
+    <div class="landing">
+      <div class="container">
+        <p>
+          upgrade your tech game discover the
+          <span>latest smartphones</span> and <span>playstation</span> consoles
+          at <span>unbeatable prices!</span>
+        </p>
+
+        <img src="./images/Playstation.png" alt="" />
+      </div>
+    </div>
+    <!-- end landing   -->
+    <!-- start category  -->
+    <div class="category">
+      <div class="container">
+        <div class="box">
+          <img
+            src="./images/cat-1.png"
+            alt=""
+            style="height: 148px; width: 230px"
+          />
+          <p>Furniture</p>
+        </div>
+        <div class="box">
+          <img src="./images/cat-2.png" alt="" />
+          <p>Makeup</p>
+        </div>
+        <div class="box">
+          <img src="./images/cat-3.png" alt="" />
+          <p>KitchenWare</p>
+        </div>
+        <div class="box">
+          <img src="./images/cat-4.png" alt="" />
+          <p>Bages</p>
+        </div>
+      </div>
+    </div>
+    <!-- end category  -->
+    <!-- start sales  -->
+    <div class="sales">
+      <div class="offer">
+        <h3>offer</h3>
+        <button>view all</button>
+      </div>
+      <div class="container">
+        <div class="box">
+          <div class="image">
+            <img src="./images/cart1.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./images/cart2.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./images/cart3.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./images/cart4.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+      </div>
+    </div>
+    <!-- end sales  -->
+
+    <!-- start sales  -->
+    <div class="sales">
+      <div class="offer">
+        <h3>recommended</h3>
+        <button>view all</button>
+      </div>
+      <div class="container">
+        <div class="box">
+          <div class="image">
+            <img src="./images/cart1.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./images/cart2.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./images/cart3.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./images/cart4.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./images/cart5.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./images/cart6.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./images/cart7.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./images/cart8.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+      </div>
+    </div>
+    <!-- end sales  -->
+
+    <div class="sales">
+      <div class="offer">
+        <h3>explore our products</h3>
+        <button>view all</button>
+      </div>
+      <div class="container">
+        <div class="box">
+          <div class="image">
+            <img src="./images/explor1.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./images/explor2.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./images/explor3.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./images/explor4.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./images/explor5.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./images/explor6.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./images/explor7.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./images/explor8.png" alt="" />
+          </div>
+          <h3>Curology product set</h3>
+          <div class="price">
+            <p>$500</p>
+            <p>$300</p>
+            <div class="star">
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="filled fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <input type="submit" value="Add to cart" />
+        </div>
+      </div>
+    </div>
+    <!-- end sales  -->
+    <!-- button  -->
+    <div class="button">
+      <button>View All Products</button>
+    </div>
+    <!-- button  -->
+    <!-- start footer -->
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <p>green life</p>
+          <div class="link">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+        <ul>
+          <li><a href="">Custom service</a></li>
+          <li><a href="">Faqa</a></li>
+          <li><a href="">Teams-condition</a></li>
+          <li><a href="">Privicy</a></li>
+        </ul>
+        <ul>
+          <li><a href="">Profile</a></li>
+          <li><a href="">My account</a></li>
+          <li><a href="">Website</a></li>
+          <li><a href="">Account Setting</a></li>
+        </ul>
+        <ul>
+          <li><a href="">contact us</a></li>
+          <li><a href="">phone :01220421751</a></li>
+          <li><a href="">email :ahmedtawfiek556@gmail.com</a></li>
+          <li><a href="">addrese :Belbeis</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- start footer -->
+    <!-- start copyright  -->
+    <div class="copyright">
+      <ul>
+        <li><a href="">teams of use</a></li>
+        <li><a href="">privacy police</a></li>
+        <li><a href="">@2024 luxir,all right reseved</a></li>
+      </ul>
+    </div>
+    <!-- end copyright  -->
+  </body>
+</html>
