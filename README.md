@@ -32,6 +32,8 @@
 ### 📌 Wish List – Possibility to save products for later purchase.
 ### 📌 Product Comparison - Compare products to choose the best one according to needs.
 
+## [Figma_link](https://www.figma.com/design/60d2yZLxCDSVJd9joYRn9e/G-Camp_t_4?node-id=86-1293&t=sLl6jZ2Op2NdIloM-1)
+
 
 ## Team :
 ###  -Amal Sharaf Mohammed UI/UX.
