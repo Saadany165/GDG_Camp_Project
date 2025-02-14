@@ -3,13 +3,13 @@
 ## Project Green life  
 
 
-## 📌 Introduction to the Green Life project.
+## 📌 Introduction to the Green Life project :
 ### Green Life is an online store application that specializes in selling sustainable and environmentally friendly products, helping consumers make conscious choices that support the environment.
 ### The app aims to provide an easy and convenient shopping experience for individuals concerned about sustainability by offering a wide range of reusable products, made from natural and environmentally safe materials.
 
 
 
-## 🎯 Goal
+## 🎯 Goal :
 ### ✅Encouraging sustainability: providing environmentally friendly alternatives to everyday products.
 ### ✅ Facilitating access to environmental products: providing various options in one place.
 ### ✅Increasing environmental awareness: Educating users about the importance of sustainable products and their impact.
@@ -18,14 +18,14 @@
 
 
 
-## ✨ Basic features
+## ✨ Basic features :
 ### ✅ Browse products easily – clear categories and smart classification of products.
 ### ✅ Environmental information – details about each product’s impact on the environment.
 ### ✅ Flexible payment options – support for different electronic payment methods.
 ### ✅ Loyalty programs – rewards and incentives for regular customers.
 ### ✅ Support sustainable shipping – biodegradable or reusable packaging options.
 
-## 🔹 Most important characteristics
+## 🔹 Most important characteristics :
 ### 📌 Advanced Search – Helps users find products quickly.
 ### 📌 User Reviews – Real reviews to help shoppers.
 ### 📌 New Product Alerts – Notifications when new products are available.
