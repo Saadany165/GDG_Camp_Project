@@ -1,5 +1,6 @@
 # GDG_Camp_Project
-### __ Project Green life __ 
+###
+## Project Green life  
 
 
 ## 📌 Introduction to the Green Life project.
