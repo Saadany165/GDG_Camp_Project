@@ -30,3 +30,12 @@
 ### 📌 New Product Alerts – Notifications when new products are available.
 ### 📌 Wish List – Possibility to save products for later purchase.
 ### 📌 Product Comparison - Compare products to choose the best one according to needs.
+
+
+## Team :
+  -Amal Sharaf Mohammed UI/UX.
+  -Abdelrahman Mohamed Salah UI/UX.
+  -Mansour Ashraf Mansour AbdelMalek Frontend.
+  -Yousef Ashraf Salah eldin Ibrahim Backend.
+  -Ahmed Mohamed tawfik Frontend.
+  -Hamdi Elsherpeni Flutter.
