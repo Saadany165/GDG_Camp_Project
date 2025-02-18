@@ -1,7 +1,7 @@
 ### from api (Laravel).
 
 ## 📝Technologies Used : 
-### Laravel (PHP), MySQL, Postman, JWT Authentication.
+### Laravel (PHP), MySQL, Postman .
 
 ## 🧑‍💻Project Deployment (Deployment and Testing) :
 ### Run Local Project Using XAMPP and Laravel Artisan .
